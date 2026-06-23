@@ -1,0 +1,15 @@
+[package]
+name = "carousel"
+version = "0.1.0"
+edition = "2021"
+description = "Time-driven page cycler: decide which screen to show now from a declarative config, an external trigger, and a millisecond clock."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mfi/carousel"
+keywords = ["embedded", "no_std", "display", "scheduler", "oled"]
+categories = ["embedded", "no-std"]
+
+[dependencies]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+unwrap_used = "deny"
