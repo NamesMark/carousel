@@ -2,9 +2,12 @@
 name = "carousel"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.74"
 description = "Time-driven page cycler: decide which screen to show now from a declarative config, an external trigger, and a millisecond clock."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/mfi/carousel"
+repository = "https://github.com/NamesMark/carousel"
+documentation = "https://docs.rs/carousel"
+readme = "README.md"
 keywords = ["embedded", "no_std", "display", "scheduler", "oled"]
 categories = ["embedded", "no-std"]
 
